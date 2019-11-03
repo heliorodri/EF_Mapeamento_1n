@@ -13,6 +13,10 @@ namespace Mapeamento_1_N.Domain
         public int ID { get; set; }
         public string Nome { get; set; }
         public decimal Preco { get; set; }
+
+        [ForeignKey("Marca")]
+        public int idMarca { get; set; }
+
         public virtual Marca Marca { get; set; }
     }
 }
