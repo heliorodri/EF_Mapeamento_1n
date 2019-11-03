@@ -8,9 +8,10 @@ using System.Threading.Tasks;
 namespace Mapeamento_1_N.Domain
 {
     [Table("Marcas")]
-    class Marca
+    public class Marca
     {
         public int Id { get; set; }
         public string Nome { get; set; }
+        public virtual ICollection<Produto> Produtos { get; set; }
     }
 }

@@ -8,7 +8,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace Mapeamento_1_N.Domain
 {
     [Table("Produtos")]
-    class Produto
+    public class Produto
     {
         public int ID { get; set; }
         public string Nome { get; set; }
