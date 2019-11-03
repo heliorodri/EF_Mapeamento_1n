@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mapeamento_1_N", "Mapeament
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mapeamento_1_N.Domain", "Mapeamento_1_N.Domain\Mapeamento_1_N.Domain.csproj", "{AB8DCC1A-D860-420A-96C2-9E28BC9A624D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mapeamento_1_N.Data", "Mapeamento_1_N.Data\Mapeamento_1_N.Data.csproj", "{C8464F55-55B3-4A47-85C7-44AE95316A09}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{AB8DCC1A-D860-420A-96C2-9E28BC9A624D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB8DCC1A-D860-420A-96C2-9E28BC9A624D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB8DCC1A-D860-420A-96C2-9E28BC9A624D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8464F55-55B3-4A47-85C7-44AE95316A09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8464F55-55B3-4A47-85C7-44AE95316A09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8464F55-55B3-4A47-85C7-44AE95316A09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8464F55-55B3-4A47-85C7-44AE95316A09}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

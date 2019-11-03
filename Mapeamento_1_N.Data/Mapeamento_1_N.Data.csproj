@@ -5,10 +5,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{AB8DCC1A-D860-420A-96C2-9E28BC9A624D}</ProjectGuid>
+    <ProjectGuid>{C8464F55-55B3-4A47-85C7-44AE95316A09}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Mapeamento_1_N.Domain</RootNamespace>
-    <AssemblyName>Mapeamento_1_N.Domain</AssemblyName>
+    <RootNamespace>Mapeamento_1_N.Data</RootNamespace>
+    <AssemblyName>Mapeamento_1_N.Data</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -52,19 +52,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Marca.cs" />
-    <Compile Include="Produto.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Mapeamento_1_N.Data\Mapeamento_1_N.Data.csproj">
-      <Project>{c8464f55-55b3-4a47-85c7-44ae95316a09}</Project>
-      <Name>Mapeamento_1_N.Data</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
